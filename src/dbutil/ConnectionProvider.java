@@ -28,7 +28,7 @@ public class  ConnectionProvider {
                 String driver = "com.mysql.jdbc.Driver";
                 String url = "jdbc:mysql://localhost:3306/gamers";
                 String user = "root";
-                String password = "rithm";
+                String password = "";
                 Class.forName(driver);
                 con = DriverManager.getConnection(url, user, password);
             } catch (ClassNotFoundException | SQLException cnfe) {
